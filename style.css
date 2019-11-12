@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.module, .block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.module {
+    width: 100%;
+    height: 100%;
+}
+.block {
+    background-color: floralwhite;
+    opacity: 0.8;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    margin: 60px;
+}
+.link {
+    padding: 20px;
+}
+a.link:hover {
+    color: gold;
+}
